@@ -1,0 +1,23 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+/**
+ * align-items: Contrario ao flex-direction
+ * justify-contents: Igual ao flex-direction
+*/
+#app {
+  display: flex;
+
+
+}
+
+.box {
+  width: 100px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+}
